@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+.curved-bg {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background: linear-gradient(to bottom, #f1ff83, #5daa65);
+    border-bottom-left-radius: 50% 37%;
+    border-bottom-right-radius: 50% 37%;
+    height: 85vh;
+    width: 100%;
+}
+
+.divh1{
+    margin-left: -90px;
+    margin-top: 3vh;
+    font-size: 70px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    position: absolute;
+}
+
+
+.divh1 p{
+    margin-left: 0px;
+    margin-top: 3vh;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+}
